@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-player</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favi.png">
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio src=""></audio>
+    <div class="layout">
+        <main class="main">
+                <div class="player">
+                    <div class="player__image">
+                        <img src="assets/images/1.jpg" alt="image" class="image">
+                    </div>
+                    <div class="player__vinil">
+                        <img src="assets/images/vinil.png" alt="vinil" class="vinil">
+                    </div>
+                    <div class="player__control">
+                        <div class="control__name">
+                            <div class="name__title"><h1 class="title">---</h1></div> 
+                            <div class="name__subtitle"><h3 class="subtitle">---</h3></div>
+                        </div>
+                        <div class="control__progress-bar">
+                            <div class="progress-bar-line"><span class="line"></span></div>
+                            <div class="progress-bar-time">
+                                <p class="time time-current">0:00</p>
+                                <p class="time time-end">--:--</p>
+                            </div>
+                        </div>
+                        <div class="control__navigation">
+                            <img src="assets/icons/back.png" alt="backwards" class="btn back">
+                            <img src="assets/icons/play.png" alt="play" class="btn play">
+                            <img src="assets/icons/forward.png" alt="forward" class="btn forward">
+                        </div>
+                    </div>
+                </div>
+                
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="year">2024</div>
+                <a href="https://github.com/Bolbotunov" class="git"><img src="assets/icons/git.png" alt="git" class="git-image"></a>
+                <a href="https://rs.school/courses/javascript-preschool-ru" class="rs"><img src="assets/icons/rss.png" alt="rs" class="rs-image"></a>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
